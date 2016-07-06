@@ -1,0 +1,28 @@
+/*
+body {
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+*/
+
+.fix-width {
+    width: 150px;
+}
+
+/*diff css*/
+pre span.editOldInline {
+    color:#950000;
+}
+pre span.editNewInline {
+    color:red;
+}
+pre .delete {
+    text-decoration:line-through;
+    background: #FF8080;
+}
+pre .insert {
+    background: #80FF80;
+}
+pre .change {
+    background: #FFFF80;
+}
